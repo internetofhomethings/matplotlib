@@ -1,0 +1,34 @@
+Plotter Installation Instructions (Windows 10):
+
+Developer
+---------
+1. Install Visual Studio (Current version is 2019)
+2. Install Python (python-3.7.7-amd64.exe)
+- Make sure System Variable is checked when installing)
+3. Open console window (Run as administrator)
+4. From Console, install pip and matplotlib
+python -m pip install -U pip
+python -m pip install -U matplotlib
+5. download matplotlib header from: https://www.python.org/downloads/release/python-377/
+6. Create a Hello World Console App (Visual Studio)
+7. Add include link to Python to project
+C:\Users\inter\AppData\Local\Programs\Python\Python37\include
+8. Add include link to Numpy
+C:\Users\inter\AppData\Local\Programs\Python\Python37\Lib\site-packages\numpy\core\include
+9. Add include path to python library
+C:\Users\inter\AppData\Local\Programs\Python\Python37\Libs
+10. Update tools
+python -m pip install --upgrade pip setuptools wheel
+11. Install pytigon package
+pip install pytigon-gui
+
+12. Now use the backend wxagg in console application
+
+Run-time
+---------
+1. Install Visual Studio (Current version is 2019)
+2. Install Python (python-3.7.7-amd64.exe)
+- Make sure System Variable is checked when installing)
+3. Open console window (Run as administrator)
+4. Run setplot.bat
+5. VC_redist.x64.exe
